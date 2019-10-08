@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
+  <link rel="icon" href="favicon2.png" type="image/png">
+  <title>Ezee Design Co. | Creative Agency</title>
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2505517396344796');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2505517396344796&ev=PageView&noscript=1"
+  /></noscript>
+</head>
+
+<body>
+
+  <div class="open" id="links">
+    <div class="exit" onclick="toggleOff()" id="exit">
+      <span class="x" id="line1"></span>
+      <span class="x2" id="line2"></span>
+    </div>
+    <ul class="links-open" id="linksOpen">
+      <a href="index.html"><li>home</li></a>
+      <a href="services.html"><li>services</li></a>
+      <a href="projects.html"><li>projects</li></a>
+      <a href="contact.html"><li id='nope'>contact us</li></a>
+    </ul>
+    <div class="navline" id="lineOpen"></div>
+    <div class="resp-icons" id="iconsOpen">
+      <div class="boxes">
+        <a href="https://www.facebook.com/ezeedesignco/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      </div>
+      <div class="boxes">
+        <a href="https://www.instagram.com/ezeedesignco/" target="_blank"><i class="fab fa-instagram"></i></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="closed">
+    <div class="containerclosed-all">
+      <a href="index.html"><img class="responsive-logo" src="imgs/logo.png" alt="Ezee Design Co."></a>
+      <div class="hamburger"  onclick="toggleOn()" id="ham">
+        <div class="hlines"></div>
+        <div class="hlines"></div>
+        <div class="hlines"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GLOBAL NAVBAR -->
+  <div class="nav-container2">
+    <a href="index.html"><img class="home-nav-logo2" src="imgs/logo-white.png" alt="Ezee Design Co."></a>
+    <div class="nav-links2">
+      <ul class="links2">
+        <a href="index.html"><li>home</li></a>
+        <a href="services.html"><li>services</li></a>
+        <a href="projects.html"><li>projects</li></a>
+        <a href="contact.html"><li>contact us</li></a>
+      </ul>
+    </div>
+    <div class="nav-social-icons2">
+      <a href="https://www.facebook.com/ezeedesignco/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/ezeedesignco/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+<!-- CONTACT -->
+  <div class="ccontainer">
+    <div class="sidecontent">
+      <h1>Get in touch!</h1>
+      <p class="stext">Ready to start on your project? Email or call us for a free estimate. Response times are typically same day. (Holidays vary)</p>
+      <div class="sideline"></div>
+      <div class="ssocial">
+        <a class="child" href="https://www.facebook.com/ezeedesignco/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/ezeedesignco/" target="_blank"><i class="fab fa-instagram"></i></i></a>
+      </div>
+      <p class="bottom top">317.318.8196</p>
+      <p class="bottom">ezeedesignco@gmail.com</p>
+      <p class="bottom">Indianapolis, IN</p>
+    </div>
+    <div class="emailform">
+      <form action="contactform.php" method="post">
+        <div class="form">
+          <input class="singleinput" type="text" id="name" name ="name" placeholder="First and last name">
+
+          <div class="phone-email">
+            <input class="doubleinput" type="text" id="mail" name ="mail" placeholder="Your e-mail">
+            <input class="doubleinput dp" type="text" id="phone" name ="phone" placeholder="Phone number">
+          </div>
+
+          <div class="timeline-budget">
+            <input class="doubleinput" type="text" id="timeline" name ="timeline" placeholder="Timeline">
+            <input class="doubleinput dp" type="text" id="budget" name ="budget" placeholder="Budget">
+          </div>
+
+          <input class="singleinput" type="text" id="subject" name ="subject" placeholder="Subject">
+
+          <textarea type="text" id="text" name ="message" placeholder="Message"></textarea>
+
+          <button type="submit" id="submit" name="submit"><i class="fas fa-paper-plane"></i></button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="f-social">
+        <p class="f-headers">Social Media</p>
+        <div class="footer-lines"></div>
+        <div class="footer-social-icons">
+          <a class="child" href="https://www.facebook.com/ezeedesignco/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.instagram.com/ezeedesignco/" target="_blank"><i class="fab fa-instagram"></i></i></a>
+        </div>
+      </div>
+      <div class="f-middle">
+        <div class="interested">
+          <p class="f-headers">Interested in working with us?</p>
+          <div class="footer-lines"></div>
+          <p class="ready"><a href="contact.html">We're ready if you are. Click here and let's get it going!<br>Or you can call us/email us/text us. Up to you!</a></p>
+        </div>
+      </div>
+      <div class="copyrightdiv">
+        <p class="copyright">Ezee Design Co. // © 2019 All rights reserved</p>
+      </div>
+      <div class="info">
+        <p class="f-headers">Our Info</p>
+        <div class="footer-lines"></div>
+        <p class="info-info">Indianapolis</p>
+        <p class="info-info">317.318.8196</p>
+        <p class="info-info">ezeedesignco@gmail.com</p>
+      </div>
+    </div>
+      <p class="copyright-res">Ezee Design Co. // © 2019 All rights reserved</p>
+  </footer>
+
+
+<script src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
